@@ -1,0 +1,10 @@
+<launch>
+<node pkg="my_publisher" type="my_publisher_node" name="TwistPublisher">
+
+
+</node>
+
+<node pkg="my_subscriber" type="my_subscriber_node" name="TwistSubscriber" output="screen">
+</node>
+
+</launch>
